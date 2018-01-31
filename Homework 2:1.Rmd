@@ -2,10 +2,21 @@
 title: "Homework 2/1"
 author: "Elizabeth Brannon"
 date: "1/31/2018"
-output: html_document
+output: pdf_document
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+# Using only forloops and ifblocks, write out the R code necessary to print only the elements from the values vector that are not prime
+# Use 2 forloops
+
+primes <-c(2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97)
+values <-c(3, 4, 12, 19, 23, 48, 50, 61, 63, 78)
+
+# So, we want 4, 12, 48, 50, 63, 78
+
 ```
 
